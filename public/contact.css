@@ -1,0 +1,62 @@
+/*general styles*/
+
+body {
+    font-family: 'Press Start 2P';
+}
+
+p {
+    font-family: 'Kode Mono';
+}
+
+.back-home-link {
+    text-decoration: none;
+    color: white;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    border: 3px solid white;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+/*header styles*/
+
+header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/*main styles*/
+
+.main {
+    position: absolute;
+    top: 220px;
+    left: 0px;
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+}
+
+/*footer styles*/
+
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    text-align: center;
+}
+
+.footer-content {
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
